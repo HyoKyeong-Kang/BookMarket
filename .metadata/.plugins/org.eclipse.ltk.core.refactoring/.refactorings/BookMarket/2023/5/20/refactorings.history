@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;static void menuIntrodution()&apos; from &apos;Welcome.main(...)&apos; to &apos;Welcome&apos;&#x0D;&#x0A;- Original project: &apos;BookMarket&apos;&#x0D;&#x0A;- Method name: &apos;menuIntrodution&apos;&#x0D;&#x0A;- Destination type: &apos;Welcome&apos;&#x0D;&#x0A;- Declared visibility: &apos;(package)&apos;" comments="false" description="Extract method &apos;menuIntrodution&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{Welcome.java" name="menuIntrodution" replace="false" selection="351 520" stamp="1684214238739" version="1.0" visibility="0"/>
+</session>
