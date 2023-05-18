@@ -5,4 +5,8 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Welcome"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="CartItem"/>
+    <fullyQualifiedTypeName name="cartItem.CartItem"/>
 </qualifiedTypeNameHistroy>

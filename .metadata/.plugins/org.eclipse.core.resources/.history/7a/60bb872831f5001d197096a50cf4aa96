@@ -70,8 +70,6 @@ public class Welcome {
 		// 1. 도서 목록 출력
 		BookList(mBook); // 비어있는 2차원 배열인 mBook을 BookList() 메서드의 매개변수로 넘겨서 해당 정보들을 인덱스에 맞춰 저장
 
-		
-		//mBook 이 저장된 도서가 있는 상태
 		while (true) {
 			// 반복문을 이용하여 2차원 배열 mbook에 저장된 정보들을 출력
 			BookInformation(mBook);
@@ -93,13 +91,6 @@ public class Welcome {
 				// 2-1.1 입력값이 Y이면 도서가 추가되었다는 메시지 출력
 				if (str.equalsIgnoreCase("Y")) {
 					// 사용자 입력값이 y, n인 소문자일 수도 있으니 항상 대문자로 변경 후 확인
-					
-					//장바구니 추가 메서드 
-					/*
-					 * mCartItem 도서가 있는지 없는지 확인 
-					 * 1. 해당도서가 있으면 - 수량만 증가 
-					 * 2. 해당도서가 없으면 - mCartItem[n] 도서 추가
-					 */
 					System.out.println(mBook[numId][1] + "가(이) 장바구니에 추가되었습니다.");
 
 					// 2-1.2 입력값이 N이면 장바구니에 추가하지 않습니다라는 메시지 출력과 함께 해당 기능 자체 종료
@@ -116,7 +107,6 @@ public class Welcome {
 
 	}
 
-	//도서 정보를 반복하는 메서드
 	static void BookInformation(String[][] mBook) {
 		for (int i = 0; i < NUM_BOOK; i++) {
 			for (int j = 0; j < NUM_ITEM; j++) {
@@ -129,7 +119,7 @@ public class Welcome {
 
 	static int findBookIndexByISBN(String str, String[][] mBook) {
 		for (int i = 0; i < NUM_BOOK; i++) {
-			if (str.equalsIgnoreCase(mBook[i][0])) {
+			if (str.equals(mBook[i][0])) {
 //            flag = true; // 장바구니의 if문을 실행할 수 있게 true로 값 변경
 				return i; // 도서가 존재할 경우 도서 인덱스 번호를 반환
 
