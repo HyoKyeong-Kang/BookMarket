@@ -75,6 +75,7 @@ public class CartItem {
 		return "CartItem [bookID=" + bookID + ", bookName=" + bookName + ", quantity=" + quantity + ", totalPrice="
 				+ totalPrice + "]";
 	}
+
 	
 	
 	

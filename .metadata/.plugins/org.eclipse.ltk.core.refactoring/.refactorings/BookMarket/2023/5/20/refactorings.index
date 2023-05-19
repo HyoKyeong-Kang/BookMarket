@@ -1,2 +1,3 @@
 1684214238739	Extract method 'menuIntrodution'
 1684379138435	Extract method 'BookInformation'
+1684461716168	Extract method 'isCartInBook'
